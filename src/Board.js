@@ -447,7 +447,7 @@ export default function board() {
       </div>
       <h1 id={turn}>{turn}'s turn</h1>
       <h1 onClick={() => restart()}>Click here to restart the game.</h1>
-      <a href="https://github.com/ParkerMorris11/startup">Github</a>
+      <a href="https://github.com/ParkerMorris11/React-Connect-Four">My GitHub</a>
     </div>
   );
 }
