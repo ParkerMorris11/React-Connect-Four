@@ -1,0 +1,47 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+body {
+  justify-content: center;
+}
+
+#board {
+  background-color: grey;
+  width: 600px;
+  height: 500px;
+  padding: 20px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tile {
+  width: 70px;
+  height: 70px;
+  border-radius: 60px;
+  margin: 5px;
+}
+.white {
+  background-color: white;
+}
+.Yellow {
+  background-color: yellow;
+}
+
+.Red {
+  background-color: red;
+}
+#Red {
+  color: rgb(150, 0, 0);
+}
+#Yellow {
+  color: rgb(201, 201, 18);
+}
+body {
+  display: flex;
+  justify-content: center;
+}
